@@ -1,59 +1,123 @@
+<!-- This is a comment. The web browser doesn't care what I put here. -->
+
+<!-- This is the document type. This line says that we're using HTML5. -->
 <!DOCTYPE html>
+
 <html>
+
+<!-- Head -->
 <head>
-  <title>Rossi</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/sandbox.css">
+  <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">MySocial</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">New Events<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Calendar</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Create an Event<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="form.html">Cool Parties</a></li>
+            <li><a href="form.html">Private parties</a></li>
+            <li><a href="form.html">The Best Parties</a></li>
+            <li class="divider"></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">My Account</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  <title>Kellogg Social</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+
+  <link rel="stylesheet" href="untitled.css">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <title>Kellogg Social</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="stylesheets/sandbox.css">
+  <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 </head>
+
+<!-- Body -->
 <body>
-  <div id="wrapper">
-    <h1>Greg Rossi the 1st</h1>
-    <p>
-      <img src="rossi.jpg" height=200 width="250">
-    </p>
-    <h2>Genius</h2>
-    <h3>Los Gatos, CA</h3>
-    <section>
-      <h4>Don't click the below links</h4>
-      <ul>
-        <li><a href="mailto:grossi2015@kellogg.northwestern.edu">Email</a></li>
-        <li><a href="http://twitter.com/krzythoughts">Twitter</a></li>
-        <li><a href="http://facebook.com/greg.rossi.77">Facebook</a></li>
-      </ul>
-    </section>
-    <section>
-      <h4>Summary</h4>
-      <p>
-        Greg is from House Rossi and is the first of his name.  He can pretty much do anything at least half as good as the average person.  
-      </p>
-    </section>
-    <section>
-      <h4>Alleged Experience</h4>
-      <section>
-        <h5>Student (barely) at Kellogg School of Management</h5>
-        <p>Class is for suckers!</p>
-      </section>
-      <section>
-        <h5>CEO, Rossi Industries</h5>
-        <p>Step 1: Collect Textbooks</p> 
-        Step 2: ?</p> 
-        Step 3: Profit</p>
-      </section>
-    </section>
-    <section>
-      <h4>Skills</h4>
-      <ul>
-        <li>Watcing TV</li>
-        <li>Having a good time</li>
-      </ul>
-    </section>
-    <section>
-      <h4>Hobbies</h4>
-      <ul>
-        <li>Cooking</li>
-        <li>Bowling</li>
-      </ul>
-    </section>
+  <div class="container">
+    <div class="jumbotron">
+      <div class="col-sm-6">
+      <h1>Kellogg Social</h1>
+  
+      <a href="buynow.html">Check out the calendar now!</a>
+      </div>
+
+  <div id="calendar"
+  <a href="buynow.html"><img src="images/calendar.png"></a>
+
   </div>
+</div>
+
+  <div class="row">
+  <div class="col-sm-6">
+
+  <h2 id="Summary">What is Kellogg Social?</h2>
+  
+  <p class="text-wrap">
+    Kellogg Social is an easy place to check out all Kellogg social events!  You can see all public events and easily add your own, or create private events that only your friends can see.
+  </p>
+  </div>
+  </div>
+ 
+
+
+  <div class="row">
+  <div class="col-sm-6">
+  <h2>Create an Event</h2>
+
+  <ul>
+    <li class="purple"><a href="form.html">Public Event</a></li>
+    <li class="purple"><a href="form.html">Private Event</a></li>
+  </ul>
+
+  <h2>Reviews</h2>
+
+  <h3>Greg says...</h3>
+  <p>I love Kellogg Social - now I can go out every night!</p>
+
+  <h3>Joe says...</h3>
+  <p>Meh. (But Joe is an idiot)</p>
+
+  </div>
+  </div>
+
+
+
+
 </body>
+
 </html>
