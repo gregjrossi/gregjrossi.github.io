@@ -1,13 +1,8 @@
-<!-- This is a comment. The web browser doesn't care what I put here. -->
-
-<!-- This is the document type. This line says that we're using HTML5. -->
 <!DOCTYPE html>
-
 <html>
-
-<!-- Head -->
 <head>
-  <link rel="stylesheet" type="text/css" href="stylesheets/sandbox.css">
+  <title>About Us</title>
+<link rel="stylesheet" type="text/css" href="stylesheets/sandbox.css">
   <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
   <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -19,7 +14,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">MySocial</a>
+      <a class="navbar-brand" href="index.html">Home</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -44,7 +39,7 @@
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="#">My Account</a></li>
           </ul>
         </li>
       </ul>
@@ -66,58 +61,44 @@
   <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 </head>
 
-<!-- Body -->
+
 <body>
-  <div class="container">
-    <div class="jumbotron">
-      <div class="col-sm-6">
-      <h1>Kellogg Social</h1>
-  
-      <a href="form.html">Create an event now!</a>
-      </div>
 
-  <div id="calendar"
-  <a href="buynow.html"><img src="images/calendar.png"></a>
+
+<form action="mailto:grossi2015@kellogg.northwestern.edu" method="get">
+  <div class="form-group">
+  <div class="row">
+  <div class="col-sm-6">
+    <label for="subject">Event Name</label>
+    <input type="name" class="form-control" id="subject" placeholder="Name of Event" name="subject">
+  </div>
+  </div>
+  </div>
+  <div class="form-group">
+    <label for="description">Description</label>
+    <input type="description" class="form-control" id="description" placeholder="What's crackin' at your party?">
 
   </div>
+  <div class="form-group">
+    <label for="exampleInputFile">Add a Picture</label>
+    <input type="file" id="exampleInputFile">
+  
+ <div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+    Public Event
+  </label>
 </div>
-
-  <div class="row">
-  <div class="col-sm-6">
-
-  <h2 id="Summary">What is Kellogg Social?</h2>
-  
-  <p class="text-wrap">
-    Kellogg Social is an easy place to check out all Kellogg social events!  You can see all public events and easily add your own, or create private events that only your friends can see.
-  </p>
-  </div>
-  </div>
- 
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+      Private Event  </label>
+</div>
+  <button type="submit" class="btn btn-default">Email Us</button>
+</form>
 
 
-  <div class="row">
-  <div class="col-sm-6">
-  <h2>Create an Event</h2>
-
-  <ul>
-    <li class="purple"><a href="form.html">Public Event</a></li>
-    <li class="purple"><a href="form.html">Private Event</a></li>
-  </ul>
-
-  <h2>Reviews</h2>
-
-  <h3>Greg says...</h3>
-  <p>I love Kellogg Social - now I can go out every night!</p>
-
-  <h3>Joe says...</h3>
-  <p>Meh. (But Joe is an idiot)</p>
-
-  </div>
-  </div>
-
-
-
-
+    </div>
+</div>
 </body>
-
 </html>
